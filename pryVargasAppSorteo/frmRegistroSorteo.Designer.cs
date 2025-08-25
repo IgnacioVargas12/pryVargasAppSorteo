@@ -82,9 +82,9 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(287, 172);
+            btnRegistrar.Location = new Point(275, 172);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(120, 43);
+            btnRegistrar.Size = new Size(132, 48);
             btnRegistrar.TabIndex = 6;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
