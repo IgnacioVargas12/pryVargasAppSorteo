@@ -40,9 +40,10 @@
             // lblNombre
             // 
             lblNombre.AutoSize = true;
+            lblNombre.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblNombre.Location = new Point(37, 39);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(106, 15);
+            lblNombre.Size = new Size(112, 15);
             lblNombre.TabIndex = 0;
             lblNombre.Text = "Nombre del sorteo";
             lblNombre.Click += lblNombre_Click;
@@ -58,18 +59,20 @@
             // lblFecha
             // 
             lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblFecha.Location = new Point(37, 79);
             lblFecha.Name = "lblFecha";
-            lblFecha.Size = new Size(93, 15);
+            lblFecha.Size = new Size(98, 15);
             lblFecha.TabIndex = 2;
             lblFecha.Text = "Fecha del sorteo";
             // 
             // lblCantidad
             // 
             lblCantidad.AutoSize = true;
+            lblCantidad.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblCantidad.Location = new Point(37, 120);
             lblCantidad.Name = "lblCantidad";
-            lblCantidad.Size = new Size(142, 15);
+            lblCantidad.Size = new Size(147, 15);
             lblCantidad.TabIndex = 4;
             lblCantidad.Text = "Cantidad de participantes";
             // 
